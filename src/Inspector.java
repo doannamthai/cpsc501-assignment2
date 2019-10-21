@@ -30,11 +30,6 @@ public class Inspector {
         findSuperClassInfo(className, c, obj, recursive, depth);
         // Find interface information if applicable
         findInterfaceInfo(className, c, obj, recursive, depth);
-        // Since we only find name of super-class and interfaces
-        // We will stop finding any other information
-        if (!obj.getClass().equals(c))
-            return;
-
         // Find constructors information
         findConstructorInfo(className, c, obj, recursive, depth);
         // Find method information
@@ -69,6 +64,7 @@ public class Inspector {
         System.out.format("%s[%s] Constructor(s) information\n", getIndentation(depth), className);
         depth += 1;
         for (Constructor constructor : constructors){
+            constructor.setAccessible(true);
             System.out.format("%sConstructor name: %s\n", getIndentation(depth), constructor.getName());
             System.out.format("%sParameter types (%d): %s\n", getIndentation(depth), constructor.getParameterTypes().length,
                     arrayToString(constructor.getParameterTypes()));
@@ -82,6 +78,7 @@ public class Inspector {
         System.out.format("%s[%s] Method(s) information\n", getIndentation(depth), className);
         depth += 1;
         for (Method method : methods){
+            method.setAccessible(true);
             System.out.format("%sMethod name: %s\n", getIndentation(depth), method.getName());
             System.out.format("%sExceptions thrown (%d): %s\n", getIndentation(depth), method.getExceptionTypes().length,
                     arrayToString(method.getExceptionTypes()));

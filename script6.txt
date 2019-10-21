@@ -1,6 +1,6 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@18be83e4
+Running Test: [LClassB;@26be92ad
 Recursive: false
 Class name: ClassB[]
 [ClassB[]] Super-class information
@@ -9,10 +9,16 @@ Class name: ClassB[]
 	Class name: Cloneable
 	[Cloneable] No super-class
 	[Cloneable] No interface(s)
+	[Cloneable] Constructor(s) information
+	[Cloneable] Method(s) information
+	[Cloneable] Field(s) information
 
 	Class name: Serializable
 	[Serializable] No super-class
 	[Serializable] No interface(s)
+	[Serializable] Constructor(s) information
+	[Serializable] Method(s) information
+	[Serializable] Field(s) information
 [ClassB[]] Constructor(s) information
 [ClassB[]] Method(s) information
 [ClassB[]] Field(s) information

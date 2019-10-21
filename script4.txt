@@ -32,7 +32,7 @@ Class name: ClassD
 	Field name: val
 	Type: ClassA
 	Modifiers: private
-	Current value: ClassA@20e2cbe0
+	Current value: ClassA@475530b9
 
 	Field name: val2
 	Type: ClassA

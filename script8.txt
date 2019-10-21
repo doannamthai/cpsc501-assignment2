@@ -9,14 +9,77 @@ Class name: String
 	Class name: Serializable
 	[Serializable] No super-class
 	[Serializable] No interface(s)
+	[Serializable] Constructor(s) information
+	[Serializable] Method(s) information
+	[Serializable] Field(s) information
 
 	Class name: Comparable
 	[Comparable] No super-class
 	[Comparable] No interface(s)
+	[Comparable] Constructor(s) information
+	[Comparable] Method(s) information
+		Method name: compareTo
+		Exceptions thrown (0): Empty
+		Parameter types (1): java.lang.Object
+		Return type: int
+		Modifiers: public abstract
+
+	[Comparable] Field(s) information
 
 	Class name: CharSequence
 	[CharSequence] No super-class
 	[CharSequence] No interface(s)
+	[CharSequence] Constructor(s) information
+	[CharSequence] Method(s) information
+		Method name: length
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: int
+		Modifiers: public abstract
+
+		Method name: toString
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: java.lang.String
+		Modifiers: public abstract
+
+		Method name: codePoints
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: java.util.stream.IntStream
+		Modifiers: public
+
+		Method name: charAt
+		Exceptions thrown (0): Empty
+		Parameter types (1): int
+		Return type: char
+		Modifiers: public abstract
+
+		Method name: subSequence
+		Exceptions thrown (0): Empty
+		Parameter types (2): int, int
+		Return type: java.lang.CharSequence
+		Modifiers: public abstract
+
+		Method name: chars
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: java.util.stream.IntStream
+		Modifiers: public
+
+		Method name: lambda$codePoints$1
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: java.util.Spliterator$OfInt
+		Modifiers: private
+
+		Method name: lambda$chars$0
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: java.util.Spliterator$OfInt
+		Modifiers: private
+
+	[CharSequence] Field(s) information
 [String] Constructor(s) information
 	Constructor name: java.lang.String
 	Parameter types (1): byte[]
@@ -629,7 +692,7 @@ Class name: String
 	Field name: CASE_INSENSITIVE_ORDER
 	Type: java.util.Comparator
 	Modifiers: public static final
-	Current value: java.lang.String$CaseInsensitiveComparator@5e5792a0
+	Current value: java.lang.String$CaseInsensitiveComparator@27efef64
 
 	Field name: LATIN1
 	Type: byte

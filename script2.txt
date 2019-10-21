@@ -9,10 +9,22 @@ Class name: ClassA
 	Class name: Serializable
 	[Serializable] No super-class
 	[Serializable] No interface(s)
+	[Serializable] Constructor(s) information
+	[Serializable] Method(s) information
+	[Serializable] Field(s) information
 
 	Class name: Runnable
 	[Runnable] No super-class
 	[Runnable] No interface(s)
+	[Runnable] Constructor(s) information
+	[Runnable] Method(s) information
+		Method name: run
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: void
+		Modifiers: public abstract
+
+	[Runnable] Field(s) information
 [ClassA] Constructor(s) information
 	Constructor name: ClassA
 	Parameter types (0): Empty

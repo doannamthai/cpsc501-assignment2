@@ -10,6 +10,49 @@ Class name: ClassB
 		[ClassD] Super-class information
 			Class name: Object
 		[ClassD] No interface(s)
+		[ClassD] Constructor(s) information
+			Constructor name: ClassD
+			Parameter types (0): Empty
+			Modifiers: public
+
+			Constructor name: ClassD
+			Parameter types (1): int
+			Modifiers: public
+
+		[ClassD] Method(s) information
+			Method name: toString
+			Exceptions thrown (0): Empty
+			Parameter types (0): Empty
+			Return type: java.lang.String
+			Modifiers: public
+
+			Method name: getVal3
+			Exceptions thrown (0): Empty
+			Parameter types (0): Empty
+			Return type: int
+			Modifiers: public
+
+		[ClassD] Field(s) information
+			Field name: val
+			Type: ClassA
+			Modifiers: private
+			Current value: ClassA@3a82f6ef
+
+			Field name: val2
+			Type: ClassA
+			Modifiers: private static
+			Current value: null
+
+			Field name: val3
+			Type: int
+			Modifiers: private
+			Current value: 34
+
+			Field name: vallarray
+			Type: ClassA[]
+			Modifiers: private
+			Current value: Name: array | Component type: ClassA[] | Length: 10 | Content: [null, null, null, null, null, null, null, null, null, null]
+
 	[ClassC] Interface(s) information
 		Class name: InterfaceA
 		[InterfaceA] No super-class
@@ -17,10 +60,105 @@ Class name: ClassB
 			Class name: InterfaceB
 			[InterfaceB] No super-class
 			[InterfaceB] No interface(s)
+			[InterfaceB] Constructor(s) information
+			[InterfaceB] Method(s) information
+				Method name: func0
+				Exceptions thrown (1): java.lang.Exception
+				Parameter types (2): int, boolean
+				Return type: void
+				Modifiers: public abstract
+
+			[InterfaceB] Field(s) information
+		[InterfaceA] Constructor(s) information
+		[InterfaceA] Method(s) information
+			Method name: func1
+			Exceptions thrown (1): java.lang.Exception
+			Parameter types (4): int, double, boolean, java.lang.String
+			Return type: void
+			Modifiers: public abstract
+
+			Method name: func2
+			Exceptions thrown (3): java.lang.Exception, java.lang.ArithmeticException, java.lang.IllegalMonitorStateException
+			Parameter types (1): java.lang.String
+			Return type: int
+			Modifiers: public abstract
+
+		[InterfaceA] Field(s) information
+	[ClassC] Constructor(s) information
+		Constructor name: ClassC
+		Parameter types (0): Empty
+		Modifiers: public
+
+		Constructor name: ClassC
+		Parameter types (2): int, int
+		Modifiers: public
+
+	[ClassC] Method(s) information
+		Method name: run
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: void
+		Modifiers: public
+
+		Method name: toString
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: java.lang.String
+		Modifiers: public
+
+		Method name: func3
+		Exceptions thrown (0): Empty
+		Parameter types (1): int
+		Return type: void
+		Modifiers: public abstract
+
+		Method name: func0
+		Exceptions thrown (1): java.lang.Exception
+		Parameter types (2): int, boolean
+		Return type: void
+		Modifiers: public
+
+		Method name: func1
+		Exceptions thrown (1): java.lang.Exception
+		Parameter types (4): int, double, boolean, java.lang.String
+		Return type: void
+		Modifiers: public
+
+		Method name: func2
+		Exceptions thrown (3): java.lang.Exception, java.lang.ArithmeticException, java.lang.IllegalMonitorStateException
+		Parameter types (1): java.lang.String
+		Return type: int
+		Modifiers: public
+
+	[ClassC] Field(s) information
+		Field name: val2
+		Type: ClassA
+		Modifiers: private
+		Current value: ClassA@8bd1b6a
+
+		Field name: val3
+		Type: ClassA
+		Modifiers: private
+		Current value: ClassA@18be83e4
+
+		Field name: val4
+		Type: ClassA
+		Modifiers: private
+		Current value: ClassA@cb5822
+
 [ClassB] Interface(s) information
 	Class name: Runnable
 	[Runnable] No super-class
 	[Runnable] No interface(s)
+	[Runnable] Constructor(s) information
+	[Runnable] Method(s) information
+		Method name: run
+		Exceptions thrown (0): Empty
+		Parameter types (0): Empty
+		Return type: void
+		Modifiers: public abstract
+
+	[Runnable] Field(s) information
 [ClassB] Constructor(s) information
 	Constructor name: ClassB
 	Parameter types (0): Empty
@@ -49,12 +187,12 @@ Class name: ClassB
 	Field name: val
 	Type: ClassA
 	Modifiers: private
-	Current value: ClassA@56f4468b
+	Current value: ClassA@4b9e13df
 
 	Field name: val2
 	Type: ClassA
 	Modifiers: private
-	Current value: ClassA@2a5ca609
+	Current value: ClassA@2b98378d
 
 	Field name: val3
 	Type: ClassA
