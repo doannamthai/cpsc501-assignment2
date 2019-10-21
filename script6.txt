@@ -1,0 +1,19 @@
+======================================================
+Filename: script6.txt
+Running Test: [LClassB;@18be83e4
+Recursive: false
+Class name: ClassB[]
+[ClassB[]] Super-class information
+	Class name: Object
+[ClassB[]] Interface(s) information
+	Class name: Cloneable
+	[Cloneable] No super-class
+	[Cloneable] No interface(s)
+
+	Class name: Serializable
+	[Serializable] No super-class
+	[Serializable] No interface(s)
+[ClassB[]] Constructor(s) information
+[ClassB[]] Method(s) information
+[ClassB[]] Field(s) information
+======================================================

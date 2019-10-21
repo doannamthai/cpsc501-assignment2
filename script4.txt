@@ -1,0 +1,52 @@
+======================================================
+Filename: script4.txt
+Running Test: ClassD
+Recursive: false
+Class name: ClassD
+[ClassD] Super-class information
+	Class name: Object
+[ClassD] No interface(s)
+[ClassD] Constructor(s) information
+	Constructor name: ClassD
+	Parameter types (0): Empty
+	Modifiers: public
+
+	Constructor name: ClassD
+	Parameter types (1): int
+	Modifiers: public
+
+[ClassD] Method(s) information
+	Method name: toString
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: getVal3
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: int
+	Modifiers: public
+
+[ClassD] Field(s) information
+	Field name: val
+	Type: ClassA
+	Modifiers: private
+	Current value: ClassA@20e2cbe0
+
+	Field name: val2
+	Type: ClassA
+	Modifiers: private static
+	Current value: null
+
+	Field name: val3
+	Type: int
+	Modifiers: private
+	Current value: 32
+
+	Field name: vallarray
+	Type: ClassA[]
+	Modifiers: private
+	Current value: Name: array | Component type: ClassA[] | Length: 10 | Content: [null, null, null, null, null, null, null, null, null, null]
+
+======================================================

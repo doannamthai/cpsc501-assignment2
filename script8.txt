@@ -1,0 +1,644 @@
+======================================================
+Filename: script8.txt
+Running Test: Test String
+Recursive: false
+Class name: String
+[String] Super-class information
+	Class name: Object
+[String] Interface(s) information
+	Class name: Serializable
+	[Serializable] No super-class
+	[Serializable] No interface(s)
+
+	Class name: Comparable
+	[Comparable] No super-class
+	[Comparable] No interface(s)
+
+	Class name: CharSequence
+	[CharSequence] No super-class
+	[CharSequence] No interface(s)
+[String] Constructor(s) information
+	Constructor name: java.lang.String
+	Parameter types (1): byte[]
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (3): byte[], int, int
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (2): byte[], java.nio.charset.Charset
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (2): byte[], java.lang.String
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (4): byte[], int, int, java.nio.charset.Charset
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (4): char[], int, int, java.lang.Void
+	Modifiers: 
+
+	Constructor name: java.lang.String
+	Parameter types (2): java.lang.AbstractStringBuilder, java.lang.Void
+	Modifiers: 
+
+	Constructor name: java.lang.String
+	Parameter types (1): java.lang.StringBuilder
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (1): java.lang.StringBuffer
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (2): byte[], byte
+	Modifiers: 
+
+	Constructor name: java.lang.String
+	Parameter types (3): char[], int, int
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (1): char[]
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (1): java.lang.String
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (0): Empty
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (4): byte[], int, int, java.lang.String
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (2): byte[], int
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (4): byte[], int, int, int
+	Modifiers: public
+
+	Constructor name: java.lang.String
+	Parameter types (3): int[], int, int
+	Modifiers: public
+
+[String] Method(s) information
+	Method name: value
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: byte[]
+	Modifiers: 
+
+	Method name: coder
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: byte
+	Modifiers: 
+
+	Method name: equals
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.Object
+	Return type: boolean
+	Modifiers: public
+
+	Method name: length
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: int
+	Modifiers: public
+
+	Method name: toString
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: hashCode
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: int
+	Modifiers: public
+
+	Method name: getChars
+	Exceptions thrown (0): Empty
+	Parameter types (4): int, int, char[], int
+	Return type: void
+	Modifiers: public
+
+	Method name: compareTo
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: int
+	Modifiers: public
+
+	Method name: compareTo
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.Object
+	Return type: int
+	Modifiers: public volatile
+
+	Method name: indexOf
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, int
+	Return type: int
+	Modifiers: public
+
+	Method name: indexOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: int
+	Modifiers: public
+
+	Method name: indexOf
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: int
+	Modifiers: public
+
+	Method name: indexOf
+	Exceptions thrown (0): Empty
+	Parameter types (5): byte[], byte, int, java.lang.String, int
+	Return type: int
+	Modifiers: static
+
+	Method name: indexOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: int
+	Modifiers: public
+
+	Method name: checkIndex
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: void
+	Modifiers: static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): char
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): boolean
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): long
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): float
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): double
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.Object
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): char[]
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: valueOf
+	Exceptions thrown (0): Empty
+	Parameter types (3): char[], int, int
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: rangeCheck
+	Exceptions thrown (0): Empty
+	Parameter types (3): char[], int, int
+	Return type: java.lang.Void
+	Modifiers: private static
+
+	Method name: codePoints
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.util.stream.IntStream
+	Modifiers: public
+
+	Method name: isEmpty
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: boolean
+	Modifiers: public
+
+	Method name: charAt
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: char
+	Modifiers: public
+
+	Method name: codePointAt
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: int
+	Modifiers: public
+
+	Method name: codePointBefore
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: int
+	Modifiers: public
+
+	Method name: codePointCount
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: int
+	Modifiers: public
+
+	Method name: offsetByCodePoints
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: int
+	Modifiers: public
+
+	Method name: getBytes
+	Exceptions thrown (0): Empty
+	Parameter types (4): int, int, byte[], int
+	Return type: void
+	Modifiers: public
+
+	Method name: getBytes
+	Exceptions thrown (0): Empty
+	Parameter types (3): byte[], int, byte
+	Return type: void
+	Modifiers: 
+
+	Method name: getBytes
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.nio.charset.Charset
+	Return type: byte[]
+	Modifiers: public
+
+	Method name: getBytes
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: byte[]
+	Modifiers: public
+
+	Method name: getBytes
+	Exceptions thrown (1): java.io.UnsupportedEncodingException
+	Parameter types (1): java.lang.String
+	Return type: byte[]
+	Modifiers: public
+
+	Method name: contentEquals
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.StringBuffer
+	Return type: boolean
+	Modifiers: public
+
+	Method name: contentEquals
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.CharSequence
+	Return type: boolean
+	Modifiers: public
+
+	Method name: nonSyncContentEquals
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.AbstractStringBuilder
+	Return type: boolean
+	Modifiers: private
+
+	Method name: equalsIgnoreCase
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: boolean
+	Modifiers: public
+
+	Method name: compareToIgnoreCase
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: int
+	Modifiers: public
+
+	Method name: regionMatches
+	Exceptions thrown (0): Empty
+	Parameter types (5): boolean, int, java.lang.String, int, int
+	Return type: boolean
+	Modifiers: public
+
+	Method name: regionMatches
+	Exceptions thrown (0): Empty
+	Parameter types (4): int, java.lang.String, int, int
+	Return type: boolean
+	Modifiers: public
+
+	Method name: startsWith
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, int
+	Return type: boolean
+	Modifiers: public
+
+	Method name: startsWith
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: boolean
+	Modifiers: public
+
+	Method name: endsWith
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: boolean
+	Modifiers: public
+
+	Method name: lastIndexOf
+	Exceptions thrown (0): Empty
+	Parameter types (5): byte[], byte, int, java.lang.String, int
+	Return type: int
+	Modifiers: static
+
+	Method name: lastIndexOf
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: int
+	Modifiers: public
+
+	Method name: lastIndexOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: int
+	Modifiers: public
+
+	Method name: lastIndexOf
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, int
+	Return type: int
+	Modifiers: public
+
+	Method name: lastIndexOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: int
+	Modifiers: public
+
+	Method name: substring
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: substring
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: subSequence
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: java.lang.CharSequence
+	Modifiers: public
+
+	Method name: concat
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: replace
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.CharSequence, java.lang.CharSequence
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: replace
+	Exceptions thrown (0): Empty
+	Parameter types (2): char, char
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: matches
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: boolean
+	Modifiers: public
+
+	Method name: contains
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.CharSequence
+	Return type: boolean
+	Modifiers: public
+
+	Method name: replaceFirst
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, java.lang.String
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: replaceAll
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, java.lang.String
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: split
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: java.lang.String[]
+	Modifiers: public
+
+	Method name: split
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, int
+	Return type: java.lang.String[]
+	Modifiers: public
+
+	Method name: join
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.CharSequence, java.lang.CharSequence[]
+	Return type: java.lang.String
+	Modifiers: public static transient
+
+	Method name: join
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.CharSequence, java.lang.Iterable
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: toLowerCase
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: toLowerCase
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.util.Locale
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: toUpperCase
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.util.Locale
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: toUpperCase
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: trim
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: chars
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.util.stream.IntStream
+	Modifiers: public
+
+	Method name: toCharArray
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: char[]
+	Modifiers: public
+
+	Method name: format
+	Exceptions thrown (0): Empty
+	Parameter types (2): java.lang.String, java.lang.Object[]
+	Return type: java.lang.String
+	Modifiers: public static transient
+
+	Method name: format
+	Exceptions thrown (0): Empty
+	Parameter types (3): java.util.Locale, java.lang.String, java.lang.Object[]
+	Return type: java.lang.String
+	Modifiers: public static transient
+
+	Method name: copyValueOf
+	Exceptions thrown (0): Empty
+	Parameter types (3): char[], int, int
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: copyValueOf
+	Exceptions thrown (0): Empty
+	Parameter types (1): char[]
+	Return type: java.lang.String
+	Modifiers: public static
+
+	Method name: intern
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public native
+
+	Method name: isLatin1
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: boolean
+	Modifiers: private
+
+	Method name: checkOffset
+	Exceptions thrown (0): Empty
+	Parameter types (2): int, int
+	Return type: void
+	Modifiers: static
+
+	Method name: checkBoundsOffCount
+	Exceptions thrown (0): Empty
+	Parameter types (3): int, int, int
+	Return type: void
+	Modifiers: static
+
+	Method name: checkBoundsBeginEnd
+	Exceptions thrown (0): Empty
+	Parameter types (3): int, int, int
+	Return type: void
+	Modifiers: static
+
+	Method name: access$100
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: byte[]
+	Modifiers: static
+
+	Method name: access$200
+	Exceptions thrown (0): Empty
+	Parameter types (1): java.lang.String
+	Return type: boolean
+	Modifiers: static
+
+[String] Field(s) information
+	Field name: value
+	Type: byte[]
+	Modifiers: private final
+	Current value: Name: array | Component type: java.lang.Object[] | Length: 11 | Content: [84, 101, 115, 116, 32, 83, 116, 114, 105, 110, 103]
+
+	Field name: coder
+	Type: byte
+	Modifiers: private final
+	Current value: 0
+
+	Field name: hash
+	Type: int
+	Modifiers: private
+	Current value: 0
+
+	Field name: serialVersionUID
+	Type: long
+	Modifiers: private static final
+	Current value: -6849794470754667710
+
+	Field name: COMPACT_STRINGS
+	Type: boolean
+	Modifiers: static final
+	Current value: true
+
+	Field name: serialPersistentFields
+	Type: java.io.ObjectStreamField[]
+	Modifiers: private static final
+	Current value: Name: array | Component type: java.io.ObjectStreamField[] | Length: 0 | Content: []
+
+	Field name: CASE_INSENSITIVE_ORDER
+	Type: java.util.Comparator
+	Modifiers: public static final
+	Current value: java.lang.String$CaseInsensitiveComparator@5e5792a0
+
+	Field name: LATIN1
+	Type: byte
+	Modifiers: static final
+	Current value: 0
+
+	Field name: UTF16
+	Type: byte
+	Modifiers: static final
+	Current value: 1
+
+======================================================

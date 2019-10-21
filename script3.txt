@@ -1,0 +1,64 @@
+======================================================
+Filename: script3.txt
+Running Test: ClassB
+Recursive: false
+Class name: ClassB
+[ClassB] Super-class information
+	Class name: ClassC
+	[ClassC] Super-class information
+		Class name: ClassD
+		[ClassD] Super-class information
+			Class name: Object
+		[ClassD] No interface(s)
+	[ClassC] Interface(s) information
+		Class name: InterfaceA
+		[InterfaceA] No super-class
+		[InterfaceA] Interface(s) information
+			Class name: InterfaceB
+			[InterfaceB] No super-class
+			[InterfaceB] No interface(s)
+[ClassB] Interface(s) information
+	Class name: Runnable
+	[Runnable] No super-class
+	[Runnable] No interface(s)
+[ClassB] Constructor(s) information
+	Constructor name: ClassB
+	Parameter types (0): Empty
+	Modifiers: public
+
+[ClassB] Method(s) information
+	Method name: run
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: void
+	Modifiers: public
+
+	Method name: toString
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: func3
+	Exceptions thrown (0): Empty
+	Parameter types (1): int
+	Return type: void
+	Modifiers: public
+
+[ClassB] Field(s) information
+	Field name: val
+	Type: ClassA
+	Modifiers: private
+	Current value: ClassA@56f4468b
+
+	Field name: val2
+	Type: ClassA
+	Modifiers: private
+	Current value: ClassA@2a5ca609
+
+	Field name: val3
+	Type: ClassA
+	Modifiers: private
+	Current value: null
+
+======================================================

@@ -1,0 +1,72 @@
+======================================================
+Filename: script1.txt
+Running Test: ClassA
+Recursive: false
+Class name: ClassA
+[ClassA] Super-class information
+	Class name: Object
+[ClassA] Interface(s) information
+	Class name: Serializable
+	[Serializable] No super-class
+	[Serializable] No interface(s)
+
+	Class name: Runnable
+	[Runnable] No super-class
+	[Runnable] No interface(s)
+[ClassA] Constructor(s) information
+	Constructor name: ClassA
+	Parameter types (0): Empty
+	Modifiers: public
+
+	Constructor name: ClassA
+	Parameter types (1): int
+	Modifiers: public
+
+[ClassA] Method(s) information
+	Method name: run
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: void
+	Modifiers: public
+
+	Method name: toString
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: java.lang.String
+	Modifiers: public
+
+	Method name: setVal
+	Exceptions thrown (1): java.lang.Exception
+	Parameter types (1): int
+	Return type: void
+	Modifiers: public
+
+	Method name: getVal
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: int
+	Modifiers: public
+
+	Method name: printSomething
+	Exceptions thrown (0): Empty
+	Parameter types (0): Empty
+	Return type: void
+	Modifiers: private
+
+[ClassA] Field(s) information
+	Field name: val
+	Type: int
+	Modifiers: private
+	Current value: 3
+
+	Field name: val2
+	Type: double
+	Modifiers: private
+	Current value: 0.2
+
+	Field name: val3
+	Type: boolean
+	Modifiers: private
+	Current value: true
+
+======================================================
