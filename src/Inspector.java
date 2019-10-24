@@ -21,8 +21,7 @@ public class Inspector {
         if (c == null || obj == null)
              return;
         // Get the class name
-        String className = c.getSimpleName();
-        System.out.format("%sClass name: %s\n", getIndentation(depth), className);
+        String className = findClassName(c, obj, recursive, depth);
         // Stop here if this is Object class
         if (c.equals(Object.class))
             return;
@@ -38,7 +37,14 @@ public class Inspector {
         findFieldInfo(className, c, obj, recursive, depth);
     }
 
-    private void findSuperClassInfo(String className, Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException{
+    public String findClassName(Class c, Object obj, boolean recursive, int depth){
+        // Get the class name
+        String className = c.getSimpleName();
+        System.out.format("%sClass name: %s\n", getIndentation(depth), className);
+        return className;
+    }
+
+    public void findSuperClassInfo(String className, Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException{
         if (hasSuperClass(c)){
             System.out.format("%s[%s] Super-class information\n", getIndentation(depth), className);
             inspectClass(c.getSuperclass(), obj, recursive, depth+1);
@@ -47,7 +53,7 @@ public class Inspector {
         }
     }
 
-    private void findInterfaceInfo(String className, Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException{
+    public void findInterfaceInfo(String className, Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException{
         if (hasInterface(c)){
             System.out.format("%s[%s] Interface(s) information", getIndentation(depth), className);
             for (int i = 0; i < c.getInterfaces().length; i++) {
@@ -59,7 +65,7 @@ public class Inspector {
         }
     }
 
-    private void findConstructorInfo(String className, Class c, Object obj, boolean recursive, int depth){
+    public void findConstructorInfo(String className, Class c, Object obj, boolean recursive, int depth){
         Constructor[] constructors =  c.getDeclaredConstructors();
         System.out.format("%s[%s] Constructor(s) information\n", getIndentation(depth), className);
         depth += 1;
@@ -73,7 +79,7 @@ public class Inspector {
         }
     }
 
-    private void findMethodInfo(String className, Class c, Object obj, boolean recursive, int depth){
+    public void findMethodInfo(String className, Class c, Object obj, boolean recursive, int depth){
         Method[] methods = c.getDeclaredMethods();
         System.out.format("%s[%s] Method(s) information\n", getIndentation(depth), className);
         depth += 1;
@@ -90,7 +96,7 @@ public class Inspector {
         }
     }
 
-    private void findFieldInfo(String className, Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException{
+    public void findFieldInfo(String className, Class c, Object obj, boolean recursive, int depth) throws IllegalAccessException{
         Field[] fields =  c.getDeclaredFields();
         System.out.format("%s[%s] Field(s) information\n", getIndentation(depth), className);
         depth += 1;
@@ -108,8 +114,7 @@ public class Inspector {
         }
     }
 
-    private void recursiveInspect(Object obj, int depth) throws IllegalAccessException{
-        if (depth >= 3) return;
+    public void recursiveInspect(Object obj, int depth) throws IllegalAccessException{
         if (obj == null) return;
         // If this object is null or class is primitive then exits
         Class componentType = obj.getClass().getComponentType();
