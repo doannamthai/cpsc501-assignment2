@@ -157,16 +157,9 @@ public class Inspector {
         Object val = f.get(obj);
         if (val == null) return null;
         if (val.getClass().isArray()){
-            Object[] arrays = null;
-            // Check if this is primitive type
-            if (val.getClass().getComponentType().isPrimitive()) {
-                arrays = new Object[Array.getLength(val)];
-                for(int i = 0; i < arrays.length; ++i)
-                    arrays[i] = Array.get(val, i);
-            } else arrays = (Object[]) val;
-
+            Object[] array = convertToArray(val);
             return MessageFormat.format("Name: array | Component type: {0} | Length: {1} | Content: {2}",
-                    arrays.getClass().getTypeName(), arrays.length, Arrays.toString(arrays));
+                    array.getClass().getTypeName(), array.length, Arrays.toString(array));
         } else {
             if (isPrimitiveOrWrapper(val.getClass())){
                 return val;
@@ -174,6 +167,17 @@ public class Inspector {
                 return val.getClass().getName()+"@"+Integer.toHexString(System.identityHashCode(val));
             }
         }
+    }
+
+    private Object[] convertToArray(Object val){
+        Object[] array;
+        // Check if this is primitive type
+        if (val.getClass().getComponentType().isPrimitive()) {
+            array = new Object[Array.getLength(val)];
+            for(int i = 0; i < array.length; ++i)
+                array[i] = Array.get(val, i);
+        } else array = (Object[]) val;
+        return array;
     }
 
     private static boolean isPrimitiveOrWrapper(Class<?> type) {
